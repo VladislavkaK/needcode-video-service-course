@@ -1,0 +1,23 @@
+{
+  "name": "video-processing-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "V.Kuznetsov <kuznetsovvladislav2991@gmail.com> (http://test.ru/)",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.6",
+    "@types/node": "25.9.1",
+    "ts-node": "10.9.2",
+    "typescript": "6.0.3"
+  }
+}
